@@ -17,6 +17,6 @@ rm *.INP
 cp DICTIN.OUT ../DICTIN.OUT
 cd ../
 
-/home/arthurz/miniconda3/envs/analysis_env/bin/python /home/arthurz/Masters/code/newXsCode/compressFile.py
+python3 compressFile.py
 rm 'total_xs_data.txt'
 rm 'DICTIN.OUT'
