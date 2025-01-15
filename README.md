@@ -1,8 +1,8 @@
 The purpose of this code is to allow a user to convert an ENDF6 file (or any ENDF as PREPRO takes all ENDF file formats) to a zip archive which Geant4 can read in for the ParticleHP module.
 
 Prerequisites:
-PREPRO installed
-python with zlib, and pandas
+- PREPRO installed
+- python with zlib, and pandas
 
 To Run:
 
