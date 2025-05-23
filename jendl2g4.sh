@@ -1,5 +1,6 @@
 #! /usr/bin/bash
 
+mkdir PREPRO_Output
 cp PREPRO_Input/* PREPRO_Output
 cd PREPRO_Output
 

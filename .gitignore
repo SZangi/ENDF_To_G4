@@ -1,3 +1,7 @@
 PREPRO_Output/*
+PREPRO_Input/*
 *.z
 *.OUT
+*.root
+*.csv
+writeAngDist.py
