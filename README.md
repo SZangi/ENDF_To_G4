@@ -4,7 +4,17 @@ Prerequisites:
 - PREPRO installed
 - python with zlib, and pandas
 
-To Run:
+To Run (New! Shiny! Smooth!):
+1. Download your file from JENDL or TENDL (or other ENDF but will require inspecting the file to figure out what cross-section to use)
+2. In the JENDL_2_G4.py or TENDL_2_G4.py script, change the isotope name and numbers, and file location to match your chosen isotope + file.
+3. Specify the output directory.
+4. Run!
+
+Now you should have both a file name Z_A_Name.z in the output directory, and a file named Z_AprojectileX.csv. The *.z can be copied to your $G4PARTICLEHP/{Projectile}/CrossSection directory, and the *.csv is a single column list of the cross-section data you just wrote to a *.z file.
+
+------------------------------------------------------------------------
+
+To Run (Old, more manual):
 
 1. Copy your ENDF file to the PREPRO_Inputs/
 2. Rename the file to ENDFB.IN
